@@ -12,6 +12,8 @@
 		548697DF22DA123F00E6090C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 548697DD22DA123F00E6090C /* Main.storyboard */; };
 		548697E122DA124000E6090C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 548697E022DA124000E6090C /* Assets.xcassets */; };
 		548697E422DA124000E6090C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 548697E222DA124000E6090C /* LaunchScreen.storyboard */; };
+		548697EC22DA17A000E6090C /* Teste.xib in Resources */ = {isa = PBXBuildFile; fileRef = 548697EB22DA17A000E6090C /* Teste.xib */; };
+		548697EE22DA193100E6090C /* Teste.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548697ED22DA193100E6090C /* Teste.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		548697E022DA124000E6090C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		548697E322DA124000E6090C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		548697E522DA124000E6090C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		548697EB22DA17A000E6090C /* Teste.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Teste.xib; sourceTree = "<group>"; };
+		548697ED22DA193100E6090C /* Teste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teste.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				548697E022DA124000E6090C /* Assets.xcassets */,
 				548697E222DA124000E6090C /* LaunchScreen.storyboard */,
 				548697E522DA124000E6090C /* Info.plist */,
+				548697EB22DA17A000E6090C /* Teste.xib */,
+				548697ED22DA193100E6090C /* Teste.swift */,
 			);
 			path = Bootcamp01;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 				548697E422DA124000E6090C /* LaunchScreen.storyboard in Resources */,
 				548697E122DA124000E6090C /* Assets.xcassets in Resources */,
 				548697DF22DA123F00E6090C /* Main.storyboard in Resources */,
+				548697EC22DA17A000E6090C /* Teste.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +144,7 @@
 			files = (
 				548697DC22DA123F00E6090C /* ViewController.swift in Sources */,
 				548697DA22DA123F00E6090C /* AppDelegate.swift in Sources */,
+				548697EE22DA193100E6090C /* Teste.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L2479GFA4C;
 				INFOPLIST_FILE = Bootcamp01/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L2479GFA4C;
 				INFOPLIST_FILE = Bootcamp01/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
